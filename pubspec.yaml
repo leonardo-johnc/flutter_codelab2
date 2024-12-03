@@ -1,0 +1,41 @@
+name: flutter_dev_profile
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  font_awesome_flutter: ^10.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/images/profile.jpg
+   - assets/images/1.jpg
+   - assets/images/2.jpg
+   - assets/images/3.jpg
+   - assets/images/4.jpg
+   
+   
+  fonts:
+    - family: RobotoSlab
+      fonts:
+        - asset: assets/fonts/RobotoSlab-VariableFont_wght.ttf
+          style: normal
+    - family: ProtestRevolution
+      fonts:
+        - asset: assets/fonts/ProtestRevolution-Regular.ttf
+          style: normal
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+          style: normal
