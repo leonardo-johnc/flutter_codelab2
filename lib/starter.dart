@@ -137,31 +137,25 @@ class ProfileApp extends StatelessWidget {
                 children: [
                   Center(
                     child: Text(
-                      '» Gaming',
+                      '» 🎮 Gaming',
                       style: TextStyle(fontFamily: 'Roboto'),
                     ),
                   ),
                   Center(
                     child: Text(
-                      '» Cooking',
+                      '» 🫕 Cooking',
                       style: TextStyle(fontFamily: 'Roboto'),
                     ),
                   ),
                   Center(
                     child: Text(
-                      '» Working Out',
+                      '» 💪🏽 Working Out',
                       style: TextStyle(fontFamily: 'Roboto'),
                     ),
                   ),
                   Center(
                     child: Text(
-                      '» Meme collector',
-                      style: TextStyle(fontFamily: 'Roboto'),
-                    ),
-                  ),
-                  Center(
-                    child: Text(
-                      '» Let her stay here. 😭🍋🍃',
+                      '» 🐸 Meme Farming',
                       style: TextStyle(fontFamily: 'Roboto'),
                     ),
                   ),
